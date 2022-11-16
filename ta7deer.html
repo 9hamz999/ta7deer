@@ -49,7 +49,7 @@ display: none;
     padding-right: 4%;
     padding-left: 4%;
 }
-#ma3rify1 {
+#ma3rify1 , #addma3rify3 {
 display: none;
 
 }
@@ -163,7 +163,7 @@ display: none;
 <button  id="notice1" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
   </tr>
   <tr style="text-align: center">
-    <td><input id="v1" style="direction: rtl; width: 80%;" type="text" id="m1"></input></td>
+    <td><input  style="direction: rtl; width: 80%;" type="text" id="m1"></input></td>
   </tr>
   <tr style="text-align: center;">
     <td>النتاج المترتب عليه: </td>
@@ -241,14 +241,14 @@ display: none;
     <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t1"></input></td>
   </tr>
 </table>
-<br>
+
 <div id="ma3rify1"></div>
-<div style="text-align:center;direction:rtl;">
-<button id="addma3rify" style="border: ridge; border-radius: 10px; ">إضافة تحليل ونتاج معرفي آخر</button>
-<button id="removma3rify" style="border: ridge; border-radius: 10px; ">إزالة</button>
+<br>
+<div style="text-align:center; direction:rtl;">
+ <td colspan="2"><button id="addma3rify" style="border: ridge; border-radius: 10px; ">إضافة تحليل ونتاج معرفي آخر</button>
+<button id="removma3rify" style="border: ridge; border-radius: 10px; ">إزالة</button></td>
 </div>
 <br>
-
 <table name="mhary" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center">
     <td>اكتب تحليلًا (مهاريًّا) للمحتوى</td>
@@ -448,6 +448,8 @@ margin-top:10px;">
 		<td id="T1" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
 		<td style="border-bottom:1px solid black;font-size: large;">.</td>
 	</tr>
+	<tr id= "addma3rify3">
+	</tr>
 	<tr>
 		<th style="border-bottom:1px solid black;border-left:1px solid black;">المهارات</th>
 		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
@@ -541,11 +543,18 @@ var levelName=document.getElementById("levelName").value;
 var mantham=document.getElementById("mantham").value;
 var tmhed=document.getElementById("tmhed").value;
 var z4=document.getElementById("z4").value;
-var m1=document.getElementById("v1").value;
+var m1=document.getElementById("m1").value;
 var n1=document.getElementById("n1").value;
 var j1=document.getElementById("j1").value;
 var z1=document.getElementById("z1").value;
 var t1=document.getElementById("t1").value;
+
+var addm1=document.getElementById("addm1").value;
+var addn1=document.getElementById("addn1").value;
+var addj1=document.getElementById("addj1").value;
+var addz1=document.getElementById("addz1").value;
+var addt1=document.getElementById("addt1").value;
+
 var m2=document.getElementById("m2").value;
 var n2=document.getElementById("n2").value;
 var j2=document.getElementById("j2").value;
@@ -574,6 +583,13 @@ var N1= n1;
 var J1= j1;
 var Z1= z1;
 var T1= t1;
+
+var addM1= addm1;
+var addN1= addn1;
+var addJ1= addj1;
+var addZ1= addz1;
+var addT1= addt1;
+
 var M2= m2;
 var N2= n2;
 var J2= j2;
@@ -604,6 +620,13 @@ document.getElementById("N1").innerHTML= N1;
 document.getElementById("J1").innerHTML= J1;
 document.getElementById("Z1").innerHTML= Z1;
 document.getElementById("T1").innerHTML= T1;
+
+document.getElementById("addM1").innerHTML= addM1;
+document.getElementById("addN1").innerHTML= addN1;
+document.getElementById("addJ1").innerHTML= addJ1;
+document.getElementById("addZ1").innerHTML= addZ1;
+document.getElementById("addT1").innerHTML= addT1;
+
 document.getElementById("M2").innerHTML= M2;
 document.getElementById("N2").innerHTML= N2;
 document.getElementById("J2").innerHTML= J2;
@@ -625,13 +648,18 @@ document.getElementById("Mola7that").innerHTML= Mola7that;
 <script>
 $(document).ready(function(){
     $("#ma3rify1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/addma3rify.txt");
+	$("#addma3rify3").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/addma3rify2.txt");
 
 	$("#removma3rify").click(function(){
     $("#ma3rify1").slideUp(1000);
+	$("#addma3rify3").slideUp(1000);
 	  });
 	$("#addma3rify").click(function(){
     $("#ma3rify1").slideDown(1000);
+	$("#addma3rify3").slideDown(1000);
 	  });
+	   
+
 	});
 </script>
 </body>

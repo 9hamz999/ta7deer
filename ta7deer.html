@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>التحضير اليومي الإلكتروني</title>
+  <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+
+<style>
+
+	input , button {
+		font-size: large;
+		font-family: Tajawal;
+	}
+@media screen and (max-width: 2000px) {
+	body {
+		font-size: x-large;
+		margin-right: 8%;
+		margin-left: 8%;
+	}
+
+}
+@media screen and (max-width: 1200px) {
+	body {
+		font-size: large;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		font-size: inherit;
+		margin-right: 0	;
+		margin-left: 0;
+	}
+		#content {
+		font-size:small
+	}
+}
+
+.notic , .notic1{
+ background: #f5e5b359;
+ text-align: justify;
+ border-radius:10px;
+display: none;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+
+@media print {
+	@page {
+		size: A4 landscape;
+		margin: 0;
+
+	}
+
+	#noprint , noprint * {
+		display: none;
+	}
+	body {
+		font-size:18px;
+	}
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#addma3rify").click(function(){
+    $("#ma3rify1").load("demo_test.txt");
+  });
+});
+</script>
+</head>
+
+<body>
+<div>
+<div style="font-family: 'Tajawal';border-bottom: ridge;" id="noprint">
+  <div style="text-align: center;border: ridge;">التحضير اليومي الإلكتروني</div>
+  <br>
+  <div style="text-align: center;">المعلومات الأساسية</div>
+<table style="text-align:center; width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+  <tr>
+  <td style="width:30%;">اسم المعلم:</td>
+  <td>   <input style="width: 98%; direction: rtl;" type="text" id="TeacherName"></input></td>
+  </tr>
+  <tr>
+  <td>اسم المادة:</td>
+  <td>  <input style="width: 98%;direction: rtl;" type="text" id="objectName"></input></td>
+  </tr>
+  <tr>
+  <td>اسم المدرسة:</td>
+  <td>  <input style="width: 98%;direction: rtl;" type="text" id="schoolName"></input></td> 
+  </tr>
+  <td>الصف:</td>
+  <td>  <input style="width: 98%;direction: rtl;" type="text" id="levelName"></input></td>
+  </tr>
+  <tr>
+  <td>موضوع الدرس:</td>
+  <td>  <input style="width: 98%;direction: rtl;" type="text" id="subjectName"></input></td>
+  </tr>
+    <tr>
+  <td>التاريخ:</td>
+  <td>  <input style="width: 98%;direction: rtl;" type="text" id="date"></input></td>
+  </tr>
+      <tr>
+  <td>المنطقة: </td>
+  <td>  <input style="width: 98%;direction: rtl;" type="text" id="locationn"></input></td>
+  </tr>
+</table>
+ <br> 
+
+
+<table id="m3rify" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+  <tr id="m3rify3" style="width: 100%; text-align: center">
+    <td style="text-anchor: center;">اكتب تحليلًا (معرفيًّا) للمحتوى</td>
+    <td style="width:2%;" ><button id="notice2" style="border: ridge; border-radius: 10px; ">!</button></td>  
+  </tr>
+  <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="notice"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مجالات المحتوى المعرفي وفق تصنيف بلوم المحدث (Bloom)، تتمحور حول: المعلومات، والحقائق، والمفاهيم، والمصطلحات، والمبادئ، والقوانين، والنظريات، والفرضيات، والمعاني، ومعرفة العموميات.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+وتُقسم هذه المجالات إلى:
+<br>
+<br>
+<b>
+1- المعرفة والتذكر:
+</b>
+تذكر المادة التي سبق تعلّمها.
+<br>
+<b>
+2- الفهم والاستيعاب:
+</b>
+ القدرة على إدراك معنى المادة التي يدرسها الطلبة، وذلك عن طريق ترجمة المادة مِن صورة إلى أخرى، أو تفسيرها، أو شرحها، أو تلخيصها.
+<br>
+<b>
+3- التطبيق:
+</b>
+قدرة الطلبة على استخدام ما تعلموه في مواقف جديدة.
+<br>
+<b>
+4- التحليل:
+</b>
+قدرة الطلبة على تحليل مادة التعلم إلى مكوناتها الجزئية، ويشمل ذلك التعرّف إلى الأجزاء وتحديد العلاقات بين هذه الأجزاء.
+<br>
+<b>
+5- التركيب:
+</b>
+قدرة الطلبة على وضع الأجزاء معًا لتكوين كلّ جديد، ويشمل إعداد موضوع أو محاضرة، ونواتج التعلم لهذا المستوى تؤكد السلوك الابتكاري.
+<br>
+<b>
+6- التقويم:
+</b>
+قدرة الطلبة على الحكم على قيمة المادة وفق معايير محددة قد تكون داخلية خاصة بالتنظيم، أو خارجية خاصة بالغرض أو الهدف.
+<br>
+<b>
+7- الابتكار:
+</b>
+قدرة الطلبة على جمع العناصر مع بعضها البعض لتكوين كلٍّ متكاملٍ، وإدراك العناصر مِن خلال نموذج أو هيكل جديد.
+<br>
+<button  id="notice1" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
+  </tr>
+  <tr style="text-align: center">
+    <td><input id="v1" style="direction: rtl; width: 80%;" type="text" id="m1"></input></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td>النتاج المترتب عليه: </td>
+    <td style="width:2%;" ><button id="notice3" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic1" id="notice4">
+	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>
+النتاج التعليمي: 
+</b>
+هو سلوك الطلبة المتوقّع أن يكونوا قادرين على القيام به بعد مرورهم بخبرة تعليمية. بالتالي فإنّ النتاجات التعليمية تمثّل جُملًا أو عبارات التغييرات المطلوبة لدى الطلبة في نهاية مقرر دراسي، أو وحدة دراسية، أو أحد الدروس اليوميّة.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>
+معايير صياغة النتاجات التعليمية:
+</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+لصياغة نتاجات التّعلم بشكل صحيح يجب أن تحقق عدّة شروط، هي:
+<br>
+1- أن يكون النتاج مرتبطًا بالمحتوى.
+<br>
+2- أن يكون النتاج قابلًا للتحقيق (يمكن تحقيقه).
+<br>
+3- أن يكون النتاج قابلًا للملاحظة والقياس.
+<br>
+4- أن يكون النتاج مُحدّدًا وليس عامًّا.
+<br>
+5- أن يكون النتاج محددًا بزمن.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+كيفية كتابة النتاجات التعليمية:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+لكتابة النتاج بالصياغة الصحيحة، لابد من وجود عدّة عناصر في العبارة، هي: السلوك، والمتعلم أو المستمع، والشروط، والمعايير.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مثال على نتاج يحوي العناصر السابقة:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+(أن يقرأ الطالب النّص قراءة جهرية سليمة بالحركات.)
+<br>
+	<br>
+<button  id="notice5" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="n1"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">الإجراء المترتب عليه:</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="j1"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">زمن الإجراء: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="z1"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">أداة التقويم: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t1"></input></td>
+  </tr>
+</table>
+<br>
+<div id="ma3rify1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button id="addma3rify">Get External Content</button>
+
+<br>
+<div style="text-align:center;">
+<button  style="border: ridge; border-radius: 10px; ">إضافة تحليل ونتاج معرفي آخر</button>
+</div>
+<br>
+
+<table name="mhary" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+  <tr style="text-align: center">
+    <td>اكتب تحليلًا (مهاريًّا) للمحتوى</td>
+  </tr>
+  <tr style="text-align: center">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="m2"></input></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td>النتاج المترتب عليه: </td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="n2"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">الإجراء المترتب عليه:</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="j2"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">زمن الإجراء: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="z2"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">أداة التقويم: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t2"></input></td>
+  </tr>
+</table>
+  
+<br>
+
+<table name="itjahat" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+  <tr style="text-align: center">
+    <td>اكتب واحدًا مِن القيم والاتجاهات من تحليلك للمحتوى</td>
+  </tr>
+  <tr style="text-align: center">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="m3"></input></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td>النتاج المترتب عليه: </td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="n3"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">الإجراء المترتب عليه:</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="j3"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">زمن الإجراء: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="z3"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">أداة التقويم: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t3"></input></td>
+  </tr>
+</table>
+<br>
+<table style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+  <tr style="text-align: center;">
+    <td>المنظم المتقدم:</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="mantham"></input></td>
+  </tr>
+</table>
+<br>
+
+<table style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+  <tr style="text-align: center;">
+    <td> الإجراء التمهيدي للدرس</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="tmhed"></input></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td>زمن الإجراء</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="z4"></input></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td>الإجراء الختامي (النشاط الختامي)</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="khitam"></input></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td>زمن الإجراء</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="z5"></input></td>
+  </tr>
+</table>
+<br>
+<table style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+  <tr style="text-align: center;">
+    <td>الملاحظات -إن وجدت-</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="mola7that"></input></td>
+  </tr>
+</table>
+<br>
+  <div style="text-align: center;">
+    <input style="direction: rtl;" type="button" onclick="myFunctionv()" value="تنفيذ"></button>
+  </div>
+
+  <div style="text-align:center; margin-top:10px;">
+ <button   onclick="window.print()">طباعة التحضير</button>
+ </div>
+ <br>
+
+</div>
+
+<div id="content" >
+<table name="header" style="width: 100%; direction: rtl;">
+ <tr style="text-align:center;">
+    <th id="locationn1" style="text-align:right; width: 30%;">وكالة الغوث الدولية/ منطقة </th>
+    <th id="SN" style="text-align:center; width: 40%;">المدرسة: </th>
+    <th id="TN" style="width: 25%; text-align:center;">المعلم: </th>
+	<td style="text-align:left; width: 5%;"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJAXYZRPvrR0m8-wVypKUHev-wAkA3kGHMLCj1EZAc117bbpyO_UlhJ2yzDbejrMz3nmbaKXTiLw5a8bp60d1LVUZWIkzTzoWw9RJYz5qUEWBecVO3m2Tvnm_l1tnY8x_7qq8yZauToGkK1SaNpkKQRD7LsbswIxuBUfgTmurlLdka2zL-llCP9_XB2A/s1600/logo.jpg"  width="50px" height= 50px"></td>
+  </tr>
+</table>
+
+<table name="information"  style=" width: 100%; direction: rtl; border:1px solid black;">
+ <tr>
+	<th style="width:10%; border-bottom:1px solid black;border-left:1px solid black;" >التّاريخ</th>
+	<td id="DN" style="border-bottom:1px solid black; text-align:center;"></td>
+	<th style="width:10%;  border-right:1px solid black;border-left:1px solid black;" rowspan="2">المبحث</th>
+	<td id="OubN" style="text-align:center;width:10%;  border-left:1px solid black;" rowspan="2"></td>
+	<th style="width:10%;  border-left:1px solid black;border-bottom:1px solid black;">موضوع الدرس</th>
+	<td id="SubN" style="text-align:center;width:30%; border-bottom:1px solid black;"></td>
+ </tr>
+ <tr>
+ 	<th style="border-left:1px solid black;">الحصة</th>
+	<td style="text-align:center;">1 - 2 - 3- 4 -5 - 6 - 7 - 8</td>
+	<th style="border-left:1px solid black;">الصّف</th>
+	<td id="LevN" style="text-align:center;"></td>
+ </tr>
+</table>
+
+<table name="takhteet"  style=" width: 100%; direction: rtl; border:1px solid black;
+margin-top:10px;">
+	<tr>
+		<th style="width:15%; border-bottom:1px solid black;border-left:1px solid black;">تحليل المحتوى "المعارف، والمهارات، والاتجاهات"</th>
+		<th style="width:20%; border-bottom:1px solid black;border-left:1px solid black;">النتاجات الخاصة</th>
+		<th style="width:10%; border-bottom:1px solid black;border-left:1px solid black;">المنظم المتقدم</th>
+		<th style="width:30%; border-bottom:1px solid black;border-left:1px solid black;">استراتيجيات التعليم والتعلم "الطرائق، والوسائل، والأنشطة"</th>
+		<th style="width:5% ;border-bottom:1px solid black;border-left:1px solid black;">المدّة الزمنيّة</th>
+		<th style="width:10%; border-bottom:1px solid black;border-left:1px solid black;">أدوات التقويم وأساليبه</th>
+		<th style="width:10%; border-bottom:1px solid black;">التغذية الراجعة</th>
+	</tr>
+	<tr>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="MonTh" style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black; text-align:justify;">تهيئة البيئة الصفّية الماديّة والمعنويّة المناسبة.</td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black; text-align:center;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;"></td>
+	</tr>
+	<tr>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="TM" style="border-bottom:1px solid black;border-left:1px solid black;text-align:justify;"></td>
+		<td id="ZTM" style="border-bottom:1px solid black;border-left:1px solid black;text-align:center;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black; font-size: large;">.</td>
+	</tr>
+	<tr>
+		<th style="border-bottom:1px solid black;border-left:1px solid black;">المعارف</th>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;"></td>
+	</tr>
+	<tr>
+		<td id="M1" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="N1" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="J1" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="Z1" style="text-align:center; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="T1" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;font-size: large;">.</td>
+	</tr>
+	<tr>
+		<th style="border-bottom:1px solid black;border-left:1px solid black;">المهارات</th>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;"></td>
+	</tr>
+	<tr>
+		<td id="M2" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="N2" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="J2" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="Z2" style="text-align:center; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="T2" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;font-size: large;">.</td>
+	</tr>
+	<tr>
+	<th style="border-bottom:1px solid black;border-left:1px solid black;">الاتجاهات</th>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;"></td>
+	</tr>
+	<tr>
+		<td id="M3" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="N3" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="J3" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="Z3" style="text-align:center; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td id="T3" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
+		<td style="border-bottom:1px solid black;font-size: large;">.</td>
+	</tr>
+	<tr>
+		<th style="border-left:1px solid black;"></th>
+		<td style="border-left:1px solid black;"></td>
+		<td style="border-left:1px solid black;"></td>
+		<td id="Khitam" style="border-left:1px solid black;"></td>
+		<td id="Z5" style="text-align:center;border-left:1px solid black;"></td>
+		<td style="border-left:1px solid black;"></td>
+		<td style="font-size: large;">.</td>
+	</tr>
+</table>
+<table style="width:100%; text-align:right; direction:rtl;">
+<tr>
+<th style="width:6%; text-align:right;">ملاحظات:</th>
+<td style="text-align:right;" id="Mola7that" ></td>
+</tr>
+<tr>
+<th style="width:6%; text-align:right;"></th>
+<td style="width:94%; text-align:right; border-top: 2px dotted;"></td>
+</tr>
+</table>
+</div>
+</div>
+  <!-- Project -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+  $("#notice1").click(function(){
+    $("#notice").slideUp(1000);
+  });
+  $("#notice2").click(function(){
+    $("#notice").slideDown(1000);
+    $("#notice4").slideUp(1000);
+  });
+    $("#notice5").click(function(){
+    $("#notice4").slideUp(1000);
+  });
+  $("#notice3").click(function(){
+    $("#notice4").slideDown(1000);
+    $("#notice").slideUp(1000);
+  });
+});
+
+  </script>
+ <script>
+ 
+function myFunctionv () {
+var locationn=document.getElementById("locationn").value;
+var schoolName=document.getElementById("schoolName").value;
+var myInput=document.getElementById("TeacherName").value;
+var date=document.getElementById("date").value;
+var objectName=document.getElementById("objectName").value;
+var subjectName=document.getElementById("subjectName").value;
+var levelName=document.getElementById("levelName").value;
+var mantham=document.getElementById("mantham").value;
+var tmhed=document.getElementById("tmhed").value;
+var z4=document.getElementById("z4").value;
+var m1=document.getElementById("v1").value;
+var n1=document.getElementById("n1").value;
+var j1=document.getElementById("j1").value;
+var z1=document.getElementById("z1").value;
+var t1=document.getElementById("t1").value;
+var m2=document.getElementById("m2").value;
+var n2=document.getElementById("n2").value;
+var j2=document.getElementById("j2").value;
+var z2=document.getElementById("z2").value;
+var t2=document.getElementById("t2").value;
+var m3=document.getElementById("m3").value;
+var n3=document.getElementById("n3").value;
+var j3=document.getElementById("j3").value;
+var z3=document.getElementById("z3").value;
+var t3=document.getElementById("t3").value;
+var khitam =document.getElementById("khitam").value;
+var z5=document.getElementById("z5").value;
+var mola7that=document.getElementById("mola7that").value;
+var locationn1 = " وكالة الغوث الدولية/ منطقة" + locationn;
+var SN =  "المدرسة: " + schoolName;
+var TN = "المعلم: " + myInput;
+var DN = date;
+var OubN = objectName;
+var SubN = subjectName;
+var LevN= levelName;
+var MonTh= mantham;
+var TM = tmhed;
+var ZTM = z4;
+var M1= m1;
+var N1= n1;
+var J1= j1;
+var Z1= z1;
+var T1= t1;
+var M2= m2;
+var N2= n2;
+var J2= j2;
+var Z2= z2;
+var T2= t2;
+var M3= m3;
+var N3= n3;
+var J3= j3;
+var Z3= z3;
+var T3= t3;
+var Khitam= khitam; 
+var Z5= z5;
+var Mola7that= mola7that;
+
+
+document.getElementById("locationn1").innerHTML= locationn1;
+document.getElementById("SN").innerHTML= SN;
+document.getElementById("TN").innerHTML= TN;
+document.getElementById("DN").innerHTML= DN;
+document.getElementById("OubN").innerHTML= OubN;
+document.getElementById("SubN").innerHTML= SubN;
+document.getElementById("LevN").innerHTML= LevN;
+document.getElementById("MonTh").innerHTML= MonTh;
+document.getElementById("TM").innerHTML= TM;
+document.getElementById("ZTM").innerHTML= ZTM;
+document.getElementById("M1").innerHTML= M1;
+document.getElementById("N1").innerHTML= N1;
+document.getElementById("J1").innerHTML= J1;
+document.getElementById("Z1").innerHTML= Z1;
+document.getElementById("T1").innerHTML= T1;
+document.getElementById("M2").innerHTML= M2;
+document.getElementById("N2").innerHTML= N2;
+document.getElementById("J2").innerHTML= J2;
+document.getElementById("Z2").innerHTML= Z2;
+document.getElementById("T2").innerHTML= T2;
+document.getElementById("M3").innerHTML= M3;
+document.getElementById("N3").innerHTML= N3;
+document.getElementById("J3").innerHTML= J3;
+document.getElementById("Z3").innerHTML= Z3;
+document.getElementById("T3").innerHTML= T3;
+document.getElementById("Khitam").innerHTML= Khitam;
+document.getElementById("Z5").innerHTML= Z5;
+document.getElementById("Mola7that").innerHTML= Mola7that;
+}
+
+ </script>
+
+</body>
+</html>

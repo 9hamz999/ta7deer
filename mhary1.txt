@@ -1,3 +1,4 @@
+<br>
 <table name="mhary" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center">
     <td>اكتب تحليلًا (مهاريًّا) للمحتوى</td>

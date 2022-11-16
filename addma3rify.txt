@@ -2,7 +2,7 @@
 <table id="added1" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr id="m3rify3" style="width: 100%; text-align: center">
     <td style="text-anchor: center;">اكتب تحليلًا (معرفيًّا) للمحتوى</td>
-    <td style="width:2%;" ><button id="notice2" style="border: ridge; border-radius: 10px; ">!</button></td>  
+    <td style="width:2%;" ></td>  
   </tr>
   <tr style="width: 100%">
     <td colspan="2" id="o1" ><p class="notic" id="notice"><br>
@@ -56,7 +56,7 @@
   </tr>
   <tr style="text-align: center;">
     <td>النتاج المترتب عليه: </td>
-    <td style="width:2%;" ><button id="notice3" style="border: ridge; border-radius: 10px; ">!</button></td>
+    <td style="width:2%;" ></td>
   </tr>
    <tr style="width: 100%">
     <td colspan="2" id="o1" ><p class="notic1" id="notice4">

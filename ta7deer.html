@@ -4,12 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>التحضير اليومي الإلكتروني</title>
   <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
-
 <style>
-
 	input , button {
 		font-size: large;
 		font-family: Tajawal;
@@ -49,7 +46,7 @@ display: none;
     padding-right: 4%;
     padding-left: 4%;
 }
-#ma3rify1 , #addma3rify3 {
+#ma3rify1 , #addma3rify3 , #mhary1 , #addmhary3 ,#itjahat1 , #additjahat3 {
 display: none;
 
 }
@@ -69,9 +66,7 @@ display: none;
 	}
 }
 </style>
-
 </head>
-
 <body>
 <div>
 <div style="font-family: 'Tajawal';border-bottom: ridge;" id="noprint">
@@ -108,8 +103,6 @@ display: none;
   </tr>
 </table>
  <br> 
-
-
 <table id="m3rify" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr id="m3rify3" style="width: 100%; text-align: center">
     <td style="text-anchor: center;">اكتب تحليلًا (معرفيًّا) للمحتوى</td>
@@ -205,7 +198,23 @@ display: none;
 </b>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;
-لكتابة النتاج بالصياغة الصحيحة، لابد من وجود عدّة عناصر في العبارة، هي: السلوك، والمتعلم أو المستمع، والشروط، والمعايير.
+لكتابة النتاج بالصياغة الصحيحة، لابد من وجود عدّة عناصر في العبارة، هي: 
+<a style="color: red;">
+السلوك
+</a>
+،
+<a style="color: green;">
+والمتعلم 
+</a>
+،
+<a style="color: blue;">
+والشروط
+</a>
+،
+<a style="color: purple;">
+والمعايير
+</a>
+.
 <br>
 <br>
 <b>
@@ -214,7 +223,24 @@ display: none;
 </b>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;
-(أن يقرأ الطالب النّص قراءة جهرية سليمة بالحركات.)
+(
+أن
+<a style="color: red;">
+يقرأ
+</a>
+<a style="color: green;">
+الطالب
+</a>
+النّص
+<a style="color: purple;">
+قراءة
+جهرية
+سليمة
+</a>
+<a style="color: blue;">
+بالحركات
+</a>
+.)
 <br>
 	<br>
 <button  id="notice5" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
@@ -223,7 +249,16 @@ display: none;
     <td><input style="direction: rtl; width: 80%;" type="text" id="n1"></input></td>
   </tr>
   <tr>
-    <td style="text-align: center;">الإجراء المترتب عليه:</td>
+      <td style="text-align: center;">الإجراء المترتب عليه:</td>
+	<td style="width:2%;" ><button id="note1" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic1" id="note2">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+هنا يكتب المعلم الإجراءات التي سيقوم بها لتحقيق النتاج السابق، مُبيّنًا دور الطلبة، والاستراتيجيات والوسائل والأنشطة التي استخدمها معهم.
+<br>
+<button  id="note3" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
   </tr>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="j1"></input></td>
@@ -241,12 +276,10 @@ display: none;
     <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t1"></input></td>
   </tr>
 </table>
-
 <div id="ma3rify1"></div>
-<br>
-<div style="text-align:center; direction:rtl;">
- <td colspan="2"><button id="addma3rify" style="border: ridge; border-radius: 10px; ">إضافة تحليل ونتاج معرفي آخر</button>
-<button id="removma3rify" style="border: ridge; border-radius: 10px; ">إزالة</button></td>
+<div style="text-align:end; direction:rtl; margin-top: 2px;">
+<button id="addma3rify" style="border: ridge; border-radius: 10px; ">إضافة تحليل معرفي آخر</button>
+<button id="removma3rify" style="border: ridge; border-radius: 10px; ">إزالة</button>
 </div>
 <br>
 <table name="mhary" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
@@ -281,9 +314,12 @@ display: none;
     <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t2"></input></td>
   </tr>
 </table>
-  
+<div id="mhary1"></div>
+<div style="text-align:end; direction:rtl; margin-top: 2px;">
+<button id="addmhary" style="border: ridge; border-radius: 10px; ">إضافة تحليل مهاري آخر</button>
+<button id="removmhary" style="border: ridge; border-radius: 10px; ">إزالة</button>
+</div>
 <br>
-
 <table name="itjahat" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center">
     <td>اكتب واحدًا مِن القيم والاتجاهات من تحليلك للمحتوى</td>
@@ -316,7 +352,13 @@ display: none;
     <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t3"></input></td>
   </tr>
 </table>
+<div id="itjahat1"></div>
+<div style="text-align:end; direction:rtl; margin-top: 2px;">
+<button id="additjahat" style="border: ridge; border-radius: 10px; ">إضافة اتجاهات أخرى</button>
+<button id="removitjahat" style="border: ridge; border-radius: 10px; ">إزالة</button>
+</div>
 <br>
+
 <table style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center;">
     <td>المنظم المتقدم:</td>
@@ -366,14 +408,11 @@ display: none;
   <div style="text-align: center;">
     <input style="direction: rtl;" type="button" onclick="myFunctionv()" value="تنفيذ"></button>
   </div>
-
   <div style="text-align:center; margin-top:10px;">
  <button   onclick="window.print()">طباعة التحضير</button>
  </div>
  <br>
-
 </div>
-
 <div id="content" >
 <table name="header" style="width: 100%; direction: rtl;">
  <tr style="text-align:center;">
@@ -468,6 +507,8 @@ margin-top:10px;">
 		<td id="T2" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
 		<td style="border-bottom:1px solid black;font-size: large;">.</td>
 	</tr>
+	<tr id= "addmhary3">
+	</tr>
 	<tr>
 	<th style="border-bottom:1px solid black;border-left:1px solid black;">الاتجاهات</th>
 		<td style="border-bottom:1px solid black;border-left:1px solid black;"></td>
@@ -485,6 +526,8 @@ margin-top:10px;">
 		<td id="Z3" style="text-align:center; border-bottom:1px solid black;border-left:1px solid black;"></td>
 		<td id="T3" style="text-align:justify; border-bottom:1px solid black;border-left:1px solid black;"></td>
 		<td style="border-bottom:1px solid black;font-size: large;">.</td>
+	</tr>
+	<tr id= "additjahat3">
 	</tr>
 	<tr>
 		<th style="border-left:1px solid black;"></th>
@@ -527,11 +570,16 @@ margin-top:10px;">
     $("#notice4").slideDown(1000);
     $("#notice").slideUp(1000);
   });
+    $("#note1").click(function(){
+    $("#note2").slideDown(1000);
+  });
+    $("#note3").click(function(){
+    $("#note2").slideUp(1000);
+  });
 });
 
   </script>
  <script>
- 
 function myFunctionv () {
 var locationn=document.getElementById("locationn").value;
 var schoolName=document.getElementById("schoolName").value;
@@ -548,23 +596,31 @@ var n1=document.getElementById("n1").value;
 var j1=document.getElementById("j1").value;
 var z1=document.getElementById("z1").value;
 var t1=document.getElementById("t1").value;
-
 var addm1=document.getElementById("addm1").value;
 var addn1=document.getElementById("addn1").value;
 var addj1=document.getElementById("addj1").value;
 var addz1=document.getElementById("addz1").value;
 var addt1=document.getElementById("addt1").value;
-
 var m2=document.getElementById("m2").value;
 var n2=document.getElementById("n2").value;
 var j2=document.getElementById("j2").value;
 var z2=document.getElementById("z2").value;
 var t2=document.getElementById("t2").value;
+var addm2=document.getElementById("addm2").value;
+var addn2=document.getElementById("addn2").value;
+var addj2=document.getElementById("addj2").value;
+var addz2=document.getElementById("addz2").value;
+var addt2=document.getElementById("addt2").value;
 var m3=document.getElementById("m3").value;
 var n3=document.getElementById("n3").value;
 var j3=document.getElementById("j3").value;
 var z3=document.getElementById("z3").value;
 var t3=document.getElementById("t3").value;
+var addm3=document.getElementById("addm3").value;
+var addn3=document.getElementById("addn3").value;
+var addj3=document.getElementById("addj3").value;
+var addz3=document.getElementById("addz3").value;
+var addt3=document.getElementById("addt3").value;
 var khitam =document.getElementById("khitam").value;
 var z5=document.getElementById("z5").value;
 var mola7that=document.getElementById("mola7that").value;
@@ -583,28 +639,34 @@ var N1= n1;
 var J1= j1;
 var Z1= z1;
 var T1= t1;
-
 var addM1= addm1;
 var addN1= addn1;
 var addJ1= addj1;
 var addZ1= addz1;
 var addT1= addt1;
-
 var M2= m2;
 var N2= n2;
 var J2= j2;
 var Z2= z2;
 var T2= t2;
+var addM2= addm2;
+var addN2= addn2;
+var addJ2= addj2;
+var addZ2= addz2;
+var addT2= addt2;
 var M3= m3;
 var N3= n3;
 var J3= j3;
 var Z3= z3;
 var T3= t3;
+var addM3= addm3;
+var addN3= addn3;
+var addJ3= addj3;
+var addZ3= addz3;
+var addT3= addt3;
 var Khitam= khitam; 
 var Z5= z5;
 var Mola7that= mola7that;
-
-
 document.getElementById("locationn1").innerHTML= locationn1;
 document.getElementById("SN").innerHTML= SN;
 document.getElementById("TN").innerHTML= TN;
@@ -620,36 +682,45 @@ document.getElementById("N1").innerHTML= N1;
 document.getElementById("J1").innerHTML= J1;
 document.getElementById("Z1").innerHTML= Z1;
 document.getElementById("T1").innerHTML= T1;
-
 document.getElementById("addM1").innerHTML= addM1;
 document.getElementById("addN1").innerHTML= addN1;
 document.getElementById("addJ1").innerHTML= addJ1;
 document.getElementById("addZ1").innerHTML= addZ1;
 document.getElementById("addT1").innerHTML= addT1;
-
 document.getElementById("M2").innerHTML= M2;
 document.getElementById("N2").innerHTML= N2;
 document.getElementById("J2").innerHTML= J2;
 document.getElementById("Z2").innerHTML= Z2;
 document.getElementById("T2").innerHTML= T2;
+document.getElementById("addM2").innerHTML= addM2;
+document.getElementById("addN2").innerHTML= addN2;
+document.getElementById("addJ2").innerHTML= addJ2;
+document.getElementById("addZ2").innerHTML= addZ2;
+document.getElementById("addT2").innerHTML= addT2;
 document.getElementById("M3").innerHTML= M3;
 document.getElementById("N3").innerHTML= N3;
 document.getElementById("J3").innerHTML= J3;
 document.getElementById("Z3").innerHTML= Z3;
 document.getElementById("T3").innerHTML= T3;
+document.getElementById("addM3").innerHTML= addM3;
+document.getElementById("addN3").innerHTML= addN3;
+document.getElementById("addJ3").innerHTML= addJ3;
+document.getElementById("addZ3").innerHTML= addZ3;
+document.getElementById("addT3").innerHTML= addT3;
 document.getElementById("Khitam").innerHTML= Khitam;
 document.getElementById("Z5").innerHTML= Z5;
 document.getElementById("Mola7that").innerHTML= Mola7that;
 }
-
  </script>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
     $("#ma3rify1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/addma3rify.txt");
 	$("#addma3rify3").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/addma3rify2.txt");
-
+	$("#mhary1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/mhary1.txt");
+	$("#addmhary3").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/mhary3.txt");
+	$("#itjahat1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/itjahat1.txt");
+	$("#additjahat3").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/itjahat3.txt");
 	$("#removma3rify").click(function(){
     $("#ma3rify1").slideUp(1000);
 	$("#addma3rify3").slideUp(1000);
@@ -658,8 +729,22 @@ $(document).ready(function(){
     $("#ma3rify1").slideDown(1000);
 	$("#addma3rify3").slideDown(1000);
 	  });
-	   
-
+	$("#removmhary").click(function(){
+    $("#mhary1").slideUp(1000);
+	$("#addmhary3").slideUp(1000);
+	  });
+	$("#addmhary").click(function(){
+    $("#mhary1").slideDown(1000);
+	$("#addmhary3").slideDown(1000);
+	  });
+	$("#removitjahat").click(function(){
+    $("#itjahat1").slideUp(1000);
+	$("#additjahat3").slideUp(1000);
+	  });
+	$("#additjahat").click(function(){
+    $("#itjahat1").slideDown(1000);
+	$("#additjahat3").slideDown(1000);
+	  });
 	});
 </script>
 </body>

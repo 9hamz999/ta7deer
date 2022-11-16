@@ -4,130 +4,33 @@
     <td style="text-anchor: center;">اكتب تحليلًا (معرفيًّا) للمحتوى</td>
     <td style="width:2%;" ></td>  
   </tr>
-  <tr style="width: 100%">
-    <td colspan="2" id="o1" ><p class="notic" id="notice"><br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-مجالات المحتوى المعرفي وفق تصنيف بلوم المحدث (Bloom)، تتمحور حول: المعلومات، والحقائق، والمفاهيم، والمصطلحات، والمبادئ، والقوانين، والنظريات، والفرضيات، والمعاني، ومعرفة العموميات.
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-وتُقسم هذه المجالات إلى:
-<br>
-<br>
-<b>
-1- المعرفة والتذكر:
-</b>
-تذكر المادة التي سبق تعلّمها.
-<br>
-<b>
-2- الفهم والاستيعاب:
-</b>
- القدرة على إدراك معنى المادة التي يدرسها الطلبة، وذلك عن طريق ترجمة المادة مِن صورة إلى أخرى، أو تفسيرها، أو شرحها، أو تلخيصها.
-<br>
-<b>
-3- التطبيق:
-</b>
-قدرة الطلبة على استخدام ما تعلموه في مواقف جديدة.
-<br>
-<b>
-4- التحليل:
-</b>
-قدرة الطلبة على تحليل مادة التعلم إلى مكوناتها الجزئية، ويشمل ذلك التعرّف إلى الأجزاء وتحديد العلاقات بين هذه الأجزاء.
-<br>
-<b>
-5- التركيب:
-</b>
-قدرة الطلبة على وضع الأجزاء معًا لتكوين كلّ جديد، ويشمل إعداد موضوع أو محاضرة، ونواتج التعلم لهذا المستوى تؤكد السلوك الابتكاري.
-<br>
-<b>
-6- التقويم:
-</b>
-قدرة الطلبة على الحكم على قيمة المادة وفق معايير محددة قد تكون داخلية خاصة بالتنظيم، أو خارجية خاصة بالغرض أو الهدف.
-<br>
-<b>
-7- الابتكار:
-</b>
-قدرة الطلبة على جمع العناصر مع بعضها البعض لتكوين كلٍّ متكاملٍ، وإدراك العناصر مِن خلال نموذج أو هيكل جديد.
-<br>
-<button  id="notice1" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
-  </tr>
   <tr style="text-align: center">
-    <td><input id="v1" style="direction: rtl; width: 80%;" type="text" id="m1"></input></td>
+    <td><input style="direction: rtl; width: 80%;" type="text" id="addm1"></input></td>
   </tr>
   <tr style="text-align: center;">
     <td>النتاج المترتب عليه: </td>
     <td style="width:2%;" ></td>
   </tr>
-   <tr style="width: 100%">
-    <td colspan="2" id="o1" ><p class="notic1" id="notice4">
-	<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<b>
-النتاج التعليمي: 
-</b>
-هو سلوك الطلبة المتوقّع أن يكونوا قادرين على القيام به بعد مرورهم بخبرة تعليمية. بالتالي فإنّ النتاجات التعليمية تمثّل جُملًا أو عبارات التغييرات المطلوبة لدى الطلبة في نهاية مقرر دراسي، أو وحدة دراسية، أو أحد الدروس اليوميّة.
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<b>
-معايير صياغة النتاجات التعليمية:
-</b>
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<br>
-لصياغة نتاجات التّعلم بشكل صحيح يجب أن تحقق عدّة شروط، هي:
-<br>
-1- أن يكون النتاج مرتبطًا بالمحتوى.
-<br>
-2- أن يكون النتاج قابلًا للتحقيق (يمكن تحقيقه).
-<br>
-3- أن يكون النتاج قابلًا للملاحظة والقياس.
-<br>
-4- أن يكون النتاج مُحدّدًا وليس عامًّا.
-<br>
-5- أن يكون النتاج محددًا بزمن.
-<br>
-<br>
-<b>
-&nbsp;&nbsp;&nbsp;&nbsp;
-كيفية كتابة النتاجات التعليمية:
-</b>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-لكتابة النتاج بالصياغة الصحيحة، لابد من وجود عدّة عناصر في العبارة، هي: السلوك، والمتعلم أو المستمع، والشروط، والمعايير.
-<br>
-<br>
-<b>
-&nbsp;&nbsp;&nbsp;&nbsp;
-مثال على نتاج يحوي العناصر السابقة:
-</b>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-(أن يقرأ الطالب النّص قراءة جهرية سليمة بالحركات.)
-<br>
-	<br>
-<button  id="notice5" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
-  </tr>
   <tr style="text-align: center;">
-    <td><input style="direction: rtl; width: 80%;" type="text" id="n1"></input></td>
+    <td><input style="direction: rtl; width: 80%;" type="text" id="addn1"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">الإجراء المترتب عليه:</td>
   </tr>
   <tr style="text-align: center;">
-    <td><input style="direction: rtl; width: 80%;" type="text" id="j1"></input></td>
+    <td><input style="direction: rtl; width: 80%;" type="text" id="addj1"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">زمن الإجراء: </td>
   </tr>
   <tr>
-    <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="z1"></input></td>
+    <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="addz1"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">أداة التقويم: </td>
   </tr>
   <tr>
-    <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t1"></input></td>
+    <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="addt1"></input></td>
   </tr>
 </table>
 <br>

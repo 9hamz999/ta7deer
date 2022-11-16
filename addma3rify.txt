@@ -1,5 +1,5 @@
 
-<table id="m3rify" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+<table id="added1" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr id="m3rify3" style="width: 100%; text-align: center">
     <td style="text-anchor: center;">اكتب تحليلًا (معرفيًّا) للمحتوى</td>
     <td style="width:2%;" ><button id="notice2" style="border: ridge; border-radius: 10px; ">!</button></td>  

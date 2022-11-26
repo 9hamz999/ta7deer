@@ -5,34 +5,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>التحضير اليومي الإلكتروني</title>
+
   <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
 <style>
-	input , button {
-		font-size: large;
-		font-family: Tajawal;
-	}
-@media screen and (max-width: 2000px) {
+
+@media screen and (max-width: 3000px) {
 	body {
 		font-size: x-large;
-		margin-right: 8%;
-		margin-left: 8%;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+			input , button {
+		font-size: x-large;
+		font-family: Tajawal;
 	}
 
 }
 @media screen and (max-width: 1200px) {
 	body {
 		font-size: large;
-		margin-right: 5%;
-		margin-left: 5%;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+		input , button {
+		font-size: large;
+		font-family: Tajawal;
 	}
 }
 
 @media screen and (max-width: 800px) {
 	body {
 		font-size: inherit;
-		margin-right: 0	;
-		margin-left: 0;
+		margin-right: 1%;
+		margin-left: 1%;
 	}
+	input , button {
+		font-size: x-small;
+		font-family: Tajawal;
+	}
+	
 		#content {
 		font-size:small
 	}
@@ -46,7 +57,7 @@ display: none;
     padding-right: 4%;
     padding-left: 4%;
 }
-#ma3rify1 , #addma3rify3 , #mhary1 , #addmhary3 ,#itjahat1 , #additjahat3 {
+#ma3rify1 , #addma3rify3 , #mhary1 , #addmhary3 ,#itjahat1 , #additjahat3 , #m3rfyt1 , #mharyt1 , #itjahatt1 {
 display: none;
 
 }
@@ -64,6 +75,7 @@ display: none;
 	body {
 		font-size:18px;
 	}
+
 }
 </style>
 </head>
@@ -71,6 +83,7 @@ display: none;
 <div>
 <div style="font-family: 'Tajawal';border-bottom: ridge;" id="noprint">
   <div style="text-align: center;border: ridge;">التحضير اليومي الإلكتروني</div>
+  <div style="font-family: 'Tajawal';border-bottom: ridge;" id="noprint">
   <br>
   <div style="text-align: center;">المعلومات الأساسية</div>
 <table style="text-align:center; width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
@@ -86,7 +99,8 @@ display: none;
   <td>اسم المدرسة:</td>
   <td>  <input style="width: 98%;direction: rtl;" type="text" id="schoolName"></input></td> 
   </tr>
-  <td>الصف:</td>
+<tr> 
+ <td>الصف:</td>
   <td>  <input style="width: 98%;direction: rtl;" type="text" id="levelName"></input></td>
   </tr>
   <tr>
@@ -153,7 +167,8 @@ display: none;
 </b>
 قدرة الطلبة على جمع العناصر مع بعضها البعض لتكوين كلٍّ متكاملٍ، وإدراك العناصر مِن خلال نموذج أو هيكل جديد.
 <br>
-<button  id="notice1" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
+<button  id="notice1" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr style="text-align: center">
     <td><input  style="direction: rtl; width: 80%;" type="text" id="m1"></input></td>
@@ -163,7 +178,7 @@ display: none;
     <td style="width:2%;" ><button id="notice3" style="border: ridge; border-radius: 10px; ">!</button></td>
   </tr>
    <tr style="width: 100%">
-    <td colspan="2" id="o1" ><p class="notic1" id="notice4">
+    <td colspan="2" id="o1" ><div class="notic1" id="notice4">
 	<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <b>
@@ -242,8 +257,18 @@ display: none;
 </a>
 .)
 <br>
-	<br>
-<button  id="notice5" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
+<br>
+<b>
+الأفعال المستخدمة في صياغة النتاجات المعرفية:
+</b>
+<br>
+وفقًا لتصنيف بلوم في كل مستوى؛ حيث تبدأ مِن أعلى مستويات التفكير (الابتكار) إلى أدناها (المعرفة).
+<br>
+<br>
+<div id="m3rfyt1"></div>
+<br>
+<button  id="notice5" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br>
+</div></td>
   </tr>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="n1"></input></td>
@@ -265,12 +290,59 @@ display: none;
   </tr>
   <tr>
     <td style="text-align: center;">زمن الإجراء: </td>
+	<td style="width:2%;" ><button id="note7" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note8"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+هنا يكتب المعلم الزمن -بالدقائق- المتوقع لتنفيذ الإجراءات السابقة.
+<br>
+<button  id="note9" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr>
     <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="z1"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">أداة التقويم: </td>
+	<td style="width:2%;" ><button id="note10" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+  <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note11">
+	<br>
+	<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+التقويم:
+</b>
+<br>
+عملية منظمة لجمع المعلومات وتحليلها؛ لتحديد درجة تحقيق النتاجات والأهداف التربوية، واتخاذ القرارات بشأنها لمعالجة جوانب الضعف وتوفير النمو السليم المتكامل مِن خلال إعادة تنظيم البيئة التربوية وإثرائها.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مِن أدوات التقويم:
+</b>
+<br>
+<br>
+1-	سلم التقدير.
+<br>
+2-	قائمة الرصد.
+<br>
+3-	المناقشة.
+<br>
+4-	سؤال وجواب (مع ذكر السؤال).
+<br>
+5-	اختبار ورقي.
+<br>
+6-	ورقة عمل.
+<br>
+7-	سجل وصف سير التعلم.
+<br>
+8-	السجل القصصي.
+<br>
+
+<button  id="note12" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr>
     <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t1"></input></td>
@@ -285,30 +357,242 @@ display: none;
 <table name="mhary" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center">
     <td>اكتب تحليلًا (مهاريًّا) للمحتوى</td>
+	<td style="width:2%;" ><button id="note4" style="border: ridge; border-radius: 10px; ">!</button></td> 
+  </tr>
+    <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note5"><br>
+	<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+المجال المهاري (النفس حركي) وفق تصنيف سيمبسون:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+يتعلق هذا المجال بالتآزر الحس حركي؛ أي المعرفة والأداء، وتؤكد على المهارات الحركية، مثل: الكتابة، والسباحة، وطباعة المستندات، وتشغيل الأجهزة والآلات وغيرها...
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+يُقسم هذا المجال إلى:
+</b>
+<br>
+<b>
+1- الإدراك:
+</b>
+<br>
+يشمل الاهتمام والوعي الحسي بمدى إمكانية استعمال الأعضاء للقيام بوظائفها، ومن ثم اختيار الوظائف للقيام بها، والربط بين المعرفة والأداء، مثل: استعمال الأدوات والأجهزة البسيطة، والمهارات الحركية البسيطة.
+<br>
+<b>
+2- الميل أو التهيؤ:
+</b>
+<br>
+أي الرغبة والاستعداد لتأدية نشاط ما.
+<br>
+<b>
+3- الاستجابة الموجّهة:
+</b>
+<br>
+يتم تنفيذ مهارة معينة عندما يتولد لدى الطلبة ميل معين لهذه المهارة، ويتضمن التقليد والعمل بالمحاولة والخطأ.
+<br>
+<b>
+4- الميكانيكية والآلية:
+</b>
+<br>
+هي مرحلة أداء العمل بمهارة (سرعة وإتقان) وثقة للمهارات المركبة.
+<br>
+<b>
+5- الاستجابة الظاهرية المعقدة:
+</b>
+<br>
+مرحلة إنجاز الأعمال المعقدة التي تحتاج إلى مهارات متعددة والأداء يتم آليًا وبسهولة نتيجة لتحكم جيد في العضلات، والمهارات الفنية المعقدة المكونة مِن عدد من المهارات البسيطة التي تتطلب التناسق والتآزر الدقيق.
+<br>
+<b>
+6- التكيّف:
+</b>
+<br>
+تتطلب هذه المرحلة المهارات الحركية وغير الحركية مستوى عاليًا من الأداء، وتتطلب إظهار الشخصية.
+<br>
+<b>
+7- الإبداع:
+</b>
+<br>
+هي مرحلة أداء المهارة بأكثر من صورة، وتصل إلى حد الابتكار والاختراع وابتكار مهارات أكثر تطوّرًا.
+<br>
+
+<button  id="note6" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr style="text-align: center">
     <td><input style="direction: rtl; width: 80%;" type="text" id="m2"></input></td>
   </tr>
   <tr style="text-align: center;">
     <td>النتاج المترتب عليه: </td>
+    <td style="width:2%;" ><button id="note31" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><div class="notic1" id="note32">
+	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>
+النتاج التعليمي: 
+</b>
+هو سلوك الطلبة المتوقّع أن يكونوا قادرين على القيام به بعد مرورهم بخبرة تعليمية. بالتالي فإنّ النتاجات التعليمية تمثّل جُملًا أو عبارات التغييرات المطلوبة لدى الطلبة في نهاية مقرر دراسي، أو وحدة دراسية، أو أحد الدروس اليوميّة.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>
+معايير صياغة النتاجات التعليمية:
+</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+لصياغة نتاجات التّعلم بشكل صحيح يجب أن تحقق عدّة شروط، هي:
+<br>
+1- أن يكون النتاج مرتبطًا بالمحتوى.
+<br>
+2- أن يكون النتاج قابلًا للتحقيق (يمكن تحقيقه).
+<br>
+3- أن يكون النتاج قابلًا للملاحظة والقياس.
+<br>
+4- أن يكون النتاج مُحدّدًا وليس عامًّا.
+<br>
+5- أن يكون النتاج محددًا بزمن.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+كيفية كتابة النتاجات التعليمية:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+لكتابة النتاج بالصياغة الصحيحة، لابد من وجود عدّة عناصر في العبارة، هي: 
+<a style="color: red;">
+السلوك
+</a>
+،
+<a style="color: green;">
+والمتعلم 
+</a>
+،
+<a style="color: blue;">
+والشروط
+</a>
+،
+<a style="color: purple;">
+والمعايير
+</a>
+.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مثال على نتاج يحوي العناصر السابقة:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+(
+أن
+<a style="color: red;">
+يقرأ
+</a>
+<a style="color: green;">
+الطالب
+</a>
+النّص
+<a style="color: purple;">
+قراءة
+جهرية
+سليمة
+</a>
+<a style="color: blue;">
+بالحركات
+</a>
+.)
+<br>
+<br>
+<b>
+الأفعال المستخدمة في صياغة النتاجات المهارية:
+</b>
+<br>
+وفقًا لتصميف سمبسون؛ حيث تبدأ المستويات في الجدول أدناه مِن الأكثر تعقيدًا إلى الأدنى.
+<br>
+<br>
+<div id="mharyt1"></div>
+<br>
+<button  id="note33" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></div></td>
   </tr>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="n2"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">الإجراء المترتب عليه:</td>
+	<td><button id="note13" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+    <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic1" id="note14">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+هنا يكتب المعلم الإجراءات التي سيقوم بها لتحقيق النتاج السابق، مُبيّنًا دور الطلبة، والاستراتيجيات والوسائل والأنشطة التي استخدمها معهم.
+<br>
+<button  id="note15" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
   </tr>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="j2"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">زمن الإجراء: </td>
+	<td style="width:2%;" ><button id="note19" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note20"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+هنا يكتب المعلم الزمن -بالدقائق- المتوقع لتنفيذ الإجراءات السابقة.
+<br>
+<button  id="note21" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr>
     <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="z2"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">أداة التقويم: </td>
+	<td style="width:2%;" ><button id="note25" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+  <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note26">
+	<br>
+	<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+التقويم:
+</b>
+<br>
+عملية منظمة لجمع المعلومات وتحليلها؛ لتحديد درجة تحقيق النتاجات والأهداف التربوية، واتخاذ القرارات بشأنها لمعالجة جوانب الضعف وتوفير النمو السليم المتكامل مِن خلال إعادة تنظيم البيئة التربوية وإثرائها.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مِن أدوات التقويم:
+</b>
+<br>
+<br>
+1-	سلم التقدير.
+<br>
+2-	قائمة الرصد.
+<br>
+3-	المناقشة.
+<br>
+4-	سؤال وجواب (مع ذكر السؤال).
+<br>
+5-	اختبار ورقي.
+<br>
+6-	ورقة عمل.
+<br>
+7-	سجل وصف سير التعلم.
+<br>
+8-	السجل القصصي.
+<br>
+
+<button  id="note27" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr>
     <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t2"></input></td>
@@ -323,30 +607,221 @@ display: none;
 <table name="itjahat" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center">
     <td>اكتب واحدًا مِن القيم والاتجاهات من تحليلك للمحتوى</td>
+	<td style="width:2%;" ><button id="note46" style="border: ridge; border-radius: 10px; ">!</button></td>
   </tr>
+  <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note47">
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+يشمل هذا القسم التحليلات الوجدانية والانفعالية وفق تصنيف كراثول (Krathwohl)، ويتعلق هذا القسم بالمشاعر والانفعالات والقيم والاتجاهات.
+<br>
+<br>
+<b>
+يُقسم هذا التصنيف إلى خمسة مجالات، هي:
+</b>
+<br>
+<b>
+1- الاستقبال:
+</b>
+يشمل الوعي البسيط دون التعبير عن الميل أو الرغبة.
+<br>
+<b>
+2- الاستجابة:
+</b>
+تشمل استجابة أوليّة تعبّر عن ميل أو رغبة تجاه الظواهر والأشياء.
+<br>
+<b>
+3- التقييم:
+</b>
+يشمل قبول القيمة والاتجاه بحيث يُظهر أنماطًا مِن السلوك تتفق مع نزعة أو قيمة معينة بشكل اختياري.
+<br>
+<b>
+4- التنظيم:
+</b>
+يشمل تنظيم الاتجاهات والقيم في منظومة أو نسق حسب قيمتها.
+
+<br>
+<b>
+5- تَمَثُّل القِيَم:
+</b>
+تكامل القيمة مع السلوك الفردي، وتصبح القيمة جزءًا مِنه كالجسد؛ بحيث يُقرّ بالقيمة ويثبت عليها.
+<br>
+
+<button  id="note48" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   <tr style="text-align: center">
     <td><input style="direction: rtl; width: 80%;" type="text" id="m3"></input></td>
   </tr>
   <tr style="text-align: center;">
     <td>النتاج المترتب عليه: </td>
+    <td style="width:2%;" ><button id="note34" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><div class="notic1" id="note35">
+	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>
+النتاج التعليمي: 
+</b>
+هو سلوك الطلبة المتوقّع أن يكونوا قادرين على القيام به بعد مرورهم بخبرة تعليمية. بالتالي فإنّ النتاجات التعليمية تمثّل جُملًا أو عبارات التغييرات المطلوبة لدى الطلبة في نهاية مقرر دراسي، أو وحدة دراسية، أو أحد الدروس اليوميّة.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>
+معايير صياغة النتاجات التعليمية:
+</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+لصياغة نتاجات التّعلم بشكل صحيح يجب أن تحقق عدّة شروط، هي:
+<br>
+1- أن يكون النتاج مرتبطًا بالمحتوى.
+<br>
+2- أن يكون النتاج قابلًا للتحقيق (يمكن تحقيقه).
+<br>
+3- أن يكون النتاج قابلًا للملاحظة والقياس.
+<br>
+4- أن يكون النتاج مُحدّدًا وليس عامًّا.
+<br>
+5- أن يكون النتاج محددًا بزمن.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+كيفية كتابة النتاجات التعليمية:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+لكتابة النتاج بالصياغة الصحيحة، لابد من وجود عدّة عناصر في العبارة، هي: 
+<a style="color: red;">
+السلوك
+</a>
+،
+<a style="color: green;">
+والمتعلم 
+</a>
+،
+<a style="color: blue;">
+والشروط
+</a>
+،
+<a style="color: purple;">
+والمعايير
+</a>
+.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مثال على نتاج يحوي العناصر السابقة:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+(
+أن
+<a style="color: red;">
+يقرأ
+</a>
+<a style="color: green;">
+الطالب
+</a>
+النّص
+<a style="color: purple;">
+قراءة
+جهرية
+سليمة
+</a>
+<a style="color: blue;">
+بالحركات
+</a>
+.)
+<br>
+<br>
+<b>
+الأفعال المستخدمة في صياغة النتاجات الوجدانية:
+</b>
+<br>
+وفقًا لتصنيف كراثول؛ حيث تبدأ المستويات في الجدول أدناه مِن الكثر تعقيدًا،إلى الأبسط.
+<br>
+<br>
+<div id="itjahatt1"></div>
+<br>
+<button  id="note36" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></div></td>
   </tr>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="n3"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">الإجراء المترتب عليه:</td>
+	<td style="width:2%;"><button id="note16" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+    <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic1" id="note17">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+هنا يكتب المعلم الإجراءات التي سيقوم بها لتحقيق النتاج السابق، مُبيّنًا دور الطلبة، والاستراتيجيات والوسائل والأنشطة التي استخدمها معهم.
+<br>
+<button  id="note18" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p></td>
   </tr>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="j3"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">زمن الإجراء: </td>
+	<td style="width:2%;" ><button id="note22" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note23"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+هنا يكتب المعلم الزمن -بالدقائق- المتوقع لتنفيذ الإجراءات السابقة.
+<br>
+<button  id="note24" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr>
     <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="z3"></input></td>
   </tr>
   <tr>
     <td style="text-align: center;">أداة التقويم: </td>
+	<td style="width:2%;" ><button id="note28" style="border: ridge; border-radius: 10px; ">!</button></td>
+  </tr>
+  <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note29">
+	<br>
+	<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+التقويم:
+</b>
+<br>
+عملية منظمة لجمع المعلومات وتحليلها؛ لتحديد درجة تحقيق النتاجات والأهداف التربوية، واتخاذ القرارات بشأنها لمعالجة جوانب الضعف وتوفير النمو السليم المتكامل مِن خلال إعادة تنظيم البيئة التربوية وإثرائها.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مِن أدوات التقويم:
+</b>
+<br>
+<br>
+1-	سلم التقدير.
+<br>
+2-	قائمة الرصد.
+<br>
+3-	المناقشة.
+<br>
+4-	سؤال وجواب (مع ذكر السؤال).
+<br>
+5-	اختبار ورقي.
+<br>
+6-	ورقة عمل.
+<br>
+7-	سجل وصف سير التعلم.
+<br>
+8-	السجل القصصي.
+<br>
+
+<button  id="note30" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   </tr>
   <tr>
     <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="t3"></input></td>
@@ -361,8 +836,17 @@ display: none;
 
 <table style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center;">
-    <td>المنظم المتقدم:</td>
+    <td>التعلم القلبي:</td>
+	<td style="width:2%;" ><button id="note43" style="border: ridge; border-radius: 10px; ">!</button></td>
   </tr>
+  <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note44">
+	<br>
+المعرفة العلمية التي اكتسبها المتعلّم نتيجة مروره بخبرات تعليمية سابقة -في المادة نفسها أو في المواد الأخرى- وتعدّ أساسًا لتعلّمه الجديد؛ فلو كان الدرس عن المبتدأ والخبر، يكون التعلم القبلي المتعلق بهذا الدرس هو: (الاسم) و (الفعل).
+<br>
+
+<button  id="note45" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="mantham"></input></td>
   </tr>
@@ -372,7 +856,54 @@ display: none;
 <table style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
   <tr style="text-align: center;">
     <td> الإجراء التمهيدي للدرس</td>
+	<td style="width:2%;" ><button id="note37" style="border: ridge; border-radius: 10px; ">!</button></td>
   </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note38">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+تمثل الدقائق الأولى في الموقف التعليمي أهمية قصوى؛ إذ يمكن من خلالها إثارة دافعية التلاميذ ولفت انتباههم وإثارة حب استطلاعهم ورغبتهم ودافعيتهم للتعلم.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مِن أشكال التمهيد للحصة:
+</b>
+<br>
+1- قصة قصيرة.
+<br>
+2- مشهد تمثيلي.
+<br>
+3- سؤال (عصف ذهني).
+<br>
+4- ربط الأحداث اليومية بالدرس.
+<br>
+5- لغز تعليمي.
+<br>
+6- فيلم قصير.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+يتسم التمهيد بأنّه:
+</b>
+<br>
+1- جذاب وشيق.
+<br>
+2- جديد وغير مكرر.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مثال على التمهيد:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+(يمهد المعلم للدرس بكتابة لغز على اللوح، ثم يستمع إلى إجابات الطلبة، بعدها يقوم بكتابة الإجابة الصحيحة، ويربط محتوى اللغز بالدرس.) 
+<br>
+
+<button  id="note39" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="tmhed"></input></td>
   </tr>
@@ -384,7 +915,98 @@ display: none;
   </tr>
   <tr style="text-align: center;">
     <td>الإجراء الختامي (النشاط الختامي)</td>
+	<td style="width:2%;" ><button id="note40" style="border: ridge; border-radius: 10px; ">!</button></td>
   </tr>
+   <tr style="width: 100%">
+    <td colspan="2" id="o1" ><p class="notic" id="note41">
+
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+الإجراء الختامي:
+</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+هي الطريقة التي يغلق فيها المعلم الدّرس أو الحصة بصورة تساعد على الخروج مِن الجلسة التعليمية بصورة صحيحة؛ وتساعد المعلم على تحصيل تغذية راجعة تفيده في معرفة مدى فهم الطلبة للدرس.
+<br>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+مِن طُرق إغلاق الدرس:
+</b>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+1- تقديم مُلخص مِن قِبَل الطلبة:
+</b>
+كتكليف الطلبة كتابة ملخص سريع يتضمن أهم المعلومات التي تعلّموها، وتحديد الجزء المفضل مِن الحصة، أو بأن يطرح المعلم سؤالًا مفاده "ماذا تعلّمت مِن حصة اليوم؟".
+<br>
+<b>
+2- استخدام تذاكر الخروج:
+</b>
+يمكنك أن تطلب من الطلاب إخراج قصاصة من الورق في نهاية الحصة، وأن يكتبوا عليها المعلومات التي تعلّموها في درس اليوم، كما يمكنهم كتابة أيّ سؤال يخطر ببالهم حول موضوع الدرس ولم يسألوه بسبب الخجل مثلاً أو لعدم وجود وقت كافٍ، وأن يسلّموا تلك القصاصات للمعلم قبل نهاية الحصة، أو يمكنك وضع ثلاثة صناديق صغيرة كلٌّ باسم مختلف لتتعرف على مدى فهم الطلاب، وذلك من خلال تسمية الصناديق بالأسماء التالية: "توقّف" والتي تدل على وجود بعض الفجوات في الفهم لدى الطلاب وبالتالي ضرورة التوقف وعدم الانتقال إلى درس جديد حتى يتم تغطية تلك الفجوات، أمّا الصندوق الثاني فيمكن تسميته باسم "انطلق" والذي يدل على فهم الطلاب للدرس وإمكانية الانتقال إلى درس جديد، والصندوق الثالث "تابع بحذر" أي ضرورة التأكيد على المعلومات السابقة قبل شرح الدرس الجديد، بحيث يضع كلّ طالب القصاصة في الصندوق التي تدل على مدى فهمه.
+<br>
+<b>
+3- طرح الأسئلة:
+</b>
+يمكن تطبيقها باستخدام بطاقات يُعِدُّها المعلم، بحيث تضم سؤالين أو ثلاثة أسئلة مفتوحة تثير تفكير الطلبة حول المادة التي تمّ تعلّمها، ويقوم المعلم بتوزيع تلك البطاقات عليهم للإجابة عن كلِّ سؤال في سطر أو سطرين وتسليمها للمعلم قبل نهاية الحصة.
+<br>
+<b>
+4- تقديم أسئلة عن إجابات جاهزة: 
+</b>
+يقدّم المعلم عدّة إجابات بدلاً من تقديم الأسئلة، ويطلب من الطلاب صياغة سؤال يتعلّق بكلّ جواب، ويمكن تنفيذ هذه الطريقة بشكلٍ فرديّ بحيث يُطلب من كلِّ طالب كتابة السؤال بأسلوبه الخاص وتقييمه على ذلك، أو كنشاط جماعي، بحيث يُقسّم الطلاب إلى مجموعات ويضعون الأسئلة معاً بعد المناقشة.
+<br>
+<b>
+5- الاستعانة ببعض الأنشطة الإبداعية، مثل:
+</b>
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+أ- العاصفة الثلجية: 
+</b>
+يطلب المعلم من الطلبة كتابة أهم ما تعلموه خلال الحصة على قطعة من الورق، ثم تكويرها على شكل كرة ثلج، وعندما يشير المعلم لهم فإنّهم يلقون تلك الكرات في الهواء، وكل طالب يلتقط كرة ويقرؤها بصوتٍ عالٍ أمام الطلاب.
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+ب- الإنشاد: 
+</b>
+يكتب الطلبة المعلومات التي تعلّموها ويقدّموها على شكل أغنية أو لحن معروف، وعليك كمعلم تشجيعهم على غنائها ومدحهم لذلك.
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+ج- عمل إعلان: 
+</b>
+يمكنك أن تطلب من الطلبة عمل إعلان يتعلّق بموضوع الدرس، بحيث يلخّص الإعلان أهم المعلومات، ويتضمن دعاية صغيرة توضح فوائد الدرس وكيفية الاستفادة من معلوماته في حياته اليومية مع وجود بعض الرسومات -إن أتيح ذلك-.
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+د- كتابة الأسئلة من قِبل الطلبة أنفسهم: 
+</b>
+يمكنك أن تطلب من الطلبة كتابة مجموعة من الأسئلة المتنوعة والمرتبطة بمستويات بلوم -كالأسئلة التي تدل على الحفظ، أو الفهم، أو التطبيق، أو التحليل أو غيرها...- على بطاقات، ثم تبادل تلك البطاقات مع بعضهم وكل طالب يُجيب عن السؤال الذي حصل عليه من زميله.
+<br>
+<b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+هـ- لعب الأدوار:
+</b>
+ يمكنك إضفاء الطابع المسرحي عند وجود موضوع مناسب، وذلك في نهاية الحصة بأن تطلب من الطلبة تطبيق ما تمّ تعلّمه بشكلٍ واقعي، ومثال ذلك يمكنك أن تطلب من الطلاب تمثيل حركة الأرض والكواكب الأخرى حول الشمس بعد توزيع الأدوار عليهم وذلك بعد شرح الدرس.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>
+مثال على إجراء ختامي:
+</b>
+<br>
+(يختم المعلم الحصة بتقسيم الطلبة إلى مجموعات ثنائية، ويطلب مِن كلّ مجموعة أن يكتب أحدهم سؤالًا، ويجيب الآخر عن السؤال.)
+<br>
+
+
+<button  id="note42" style="float: left; border: ridge; border-radius:10px;">إخفاء</button><br><br></p>
+</td>
   <tr style="text-align: center;">
     <td><input style="direction: rtl; width: 80%;" type="text" id="khitam"></input></td>
   </tr>
@@ -406,13 +1028,15 @@ display: none;
 </table>
 <br>
   <div style="text-align: center;">
-    <input style="direction: rtl;" type="button" onclick="myFunctionv()" value="تنفيذ"></button>
-  </div>
+    <input style="direction: rtl;" type="button" onclick="myFunctionv()" value="تنفيذ"></button>  </div>
+
   <div style="text-align:center; margin-top:10px;">
  <button   onclick="window.print()">طباعة التحضير</button>
  </div>
  <br>
-</div>
+ </div>
+ </div>
+
 <div id="content" >
 <table name="header" style="width: 100%; direction: rtl;">
  <tr style="text-align:center;">
@@ -445,7 +1069,7 @@ margin-top:10px;">
 	<tr>
 		<th style="width:15%; border-bottom:1px solid black;border-left:1px solid black;">تحليل المحتوى "المعارف، والمهارات، والاتجاهات"</th>
 		<th style="width:20%; border-bottom:1px solid black;border-left:1px solid black;">النتاجات الخاصة</th>
-		<th style="width:10%; border-bottom:1px solid black;border-left:1px solid black;">المنظم المتقدم</th>
+		<th style="width:10%; border-bottom:1px solid black;border-left:1px solid black;">التعلم القبلي</th>
 		<th style="width:30%; border-bottom:1px solid black;border-left:1px solid black;">استراتيجيات التعليم والتعلم "الطرائق، والوسائل، والأنشطة"</th>
 		<th style="width:5% ;border-bottom:1px solid black;border-left:1px solid black;">المدّة الزمنيّة</th>
 		<th style="width:10%; border-bottom:1px solid black;border-left:1px solid black;">أدوات التقويم وأساليبه</th>
@@ -550,7 +1174,7 @@ margin-top:10px;">
 </tr>
 </table>
 </div>
-</div>
+
   <!-- Project -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script>
@@ -575,6 +1199,96 @@ margin-top:10px;">
   });
     $("#note3").click(function(){
     $("#note2").slideUp(1000);
+  });
+    $("#note4").click(function(){
+    $("#note5").slideDown(1000);
+  });
+    $("#note6").click(function(){
+    $("#note5").slideUp(1000);
+  });
+    $("#note7").click(function(){
+    $("#note8").slideDown(1000);
+  });
+    $("#note9").click(function(){
+    $("#note8").slideUp(1000);
+  });
+    $("#note10").click(function(){
+    $("#note11").slideDown(1000);
+  });
+    $("#note12").click(function(){
+    $("#note11").slideUp(1000);
+  });
+    $("#note13").click(function(){
+    $("#note14").slideDown(1000);
+  });
+    $("#note15").click(function(){
+    $("#note14").slideUp(1000);
+  });
+    $("#note16").click(function(){
+    $("#note17").slideDown(1000);
+  });
+    $("#note18").click(function(){
+    $("#note17").slideUp(1000);
+  });
+    $("#note19").click(function(){
+    $("#note20").slideDown(1000);
+  });
+    $("#note21").click(function(){
+    $("#note20").slideUp(1000);
+  });
+    $("#note22").click(function(){
+    $("#note23").slideDown(1000);
+  });
+    $("#note24").click(function(){
+    $("#note23").slideUp(1000);
+  });
+    $("#note25").click(function(){
+    $("#note26").slideDown(1000);
+  });
+    $("#note27").click(function(){
+    $("#note26").slideUp(1000);
+  });
+    $("#note28").click(function(){
+    $("#note29").slideDown(1000);
+  });
+    $("#note30").click(function(){
+    $("#note29").slideUp(1000);
+  });
+    $("#note31").click(function(){
+    $("#note32").slideDown(1000);
+  });
+    $("#note33").click(function(){
+    $("#note32").slideUp(1000);
+  });
+    $("#note34").click(function(){
+    $("#note35").slideDown(1000);
+  });
+    $("#note36").click(function(){
+    $("#note35").slideUp(1000);
+  });
+    $("#note37").click(function(){
+    $("#note38").slideDown(1000);
+  });
+    $("#note39").click(function(){
+    $("#note38").slideUp(1000);
+  });
+    $("#note40").click(function(){
+    $("#note41").slideDown(1000);
+  });
+    $("#note42").click(function(){
+    $("#note41").slideUp(1000);
+  });
+    $("#note43").click(function(){
+    $("#note44").slideDown(1000);
+  });
+    $("#note45").click(function(){
+    $("#note44").slideUp(1000);
+  });
+    $("#note46").click(function(){
+    $("#note47").slideDown(1000);
+  });
+    $("#note48").click(function(){
+    $("#note47").slideUp(1000);
   });
 });
 
@@ -624,7 +1338,7 @@ var addt3=document.getElementById("addt3").value;
 var khitam =document.getElementById("khitam").value;
 var z5=document.getElementById("z5").value;
 var mola7that=document.getElementById("mola7that").value;
-var locationn1 = " وكالة الغوث الدولية/ منطقة" + locationn;
+var locationn1 = " وكالة الغوث الدولية/ منطقة " + locationn;
 var SN =  "المدرسة: " + schoolName;
 var TN = "المعلم: " + myInput;
 var DN = date;
@@ -721,6 +1435,9 @@ $(document).ready(function(){
 	$("#addmhary3").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/mhary3.txt");
 	$("#itjahat1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/itjahat1.txt");
 	$("#additjahat3").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/itjahat3.txt");
+	$("#m3rfyt1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/m3rfyt.txt");
+	$("#mharyt1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/mharyt.txt");
+	$("#itjahatt1").load("https://raw.githubusercontent.com/9hamz999/ta7deer/main/itjahatt.txt");
 	$("#removma3rify").click(function(){
     $("#ma3rify1").slideUp(1000);
 	$("#addma3rify3").slideUp(1000);
@@ -745,7 +1462,28 @@ $(document).ready(function(){
     $("#itjahat1").slideDown(1000);
 	$("#additjahat3").slideDown(1000);
 	  });
+	$("#notice3").click(function(){
+    $("#m3rfyt1").slideDown(1000);
+	  });
+	$("#notice5").click(function(){
+    $("#m3rfyt1").slideUp(1000);
+	  });
+
+	$("#note31").click(function(){
+    $("#mharyt1").slideDown(1000);
+	  });
+	$("#note33").click(function(){
+    $("#mharyt1").slideUp(1000);
+	  });
+	$("#note34").click(function(){
+    $("#itjahatt1").slideDown(1000);
+	  });
+	$("#note36").click(function(){
+    $("#itjahatt1").slideUp(1000);
+	  });	  
+	  
 	});
 </script>
+
 </body>
 </html>

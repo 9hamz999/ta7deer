@@ -1,42 +1,74 @@
-<table style="text-align:center; width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+<table style="text-align:center; width: 100%; direction: rtl; border: ridge; border-radius: 10px; font-size: x-small;">
 <tr>
 	<th style="width:20%; text-align: center;border-left:ridge; border-bottom:ridge;">المجال</th>
 	<th style="width:30%; text-align: center;border-left:ridge;border-bottom:ridge;">الأفعال المستخدمة</th>
 	<th style="width:50%; text-align: center;border-bottom:ridge;">أمثلة لنتاجات تعليمية وفق المستوى</th>
 </tr>
 <tr>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الابتكار</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُؤلف، يبدع، يبتكر، يصمم، يقترح، ينسّق، ينظّم، ينشئ، يجمع بين.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يُؤلّف الطالب سيناريو يتماشى مع أحداث الدرس بنسبة 80%.
+	<br>
+	* أن يصمم الطالب وسيلة للمجموعة الشمسية باستخدام الأدوات المتوفّرة في مرسم التربية الفنية.
+	</td>
 </tr>
 <tr>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >التقويم</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يختار، يُقرّر، يُقيّم، يَحكُم، يقيس، ينقد.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يُقيّم الطالب أنواع الأطعمة التي يتناولها مِن حيث أهميتها للجسم بصورة صحيحة.
+	<br>
+	* أن يحكم الطالب على مدى استناد نتائج معينة على بيانات كافية بصورة صحيحة.
+	<br>
+	* أن يُقيّم الطالب قيمة الأعمال الفنيّة في مرحلة القرون الوسطى.
+	</td>
 </tr>
 <tr>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >التركيب</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُصنّف، يُؤلّف، يجمع، يشرح، يُنظّم، يعيد بناء، يُلخّص، يحكي، يكتب.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يُصنّف الطالب الكلمات إلى أفعال أو أسماء أو حروف، بطريقة صحيحة.
+	</td>
 </tr>
 <tr>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >التحليل</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُحلل، يُجزّئ، يحسب، يقارن، يفحص، يميّز، يستنتج، يُقسّم، يحدد العناصر الرئيسة، يربط.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يميز الطالب بين الحقائق والاستنتاجات بصورة صحيحة.
+	<br>
+	* أن يميّز الطالب الأخطاء المنطقية في الاستدلال.
+	<br>
+	* أن يحدد الطالب الأفكار الرئيسة للنص بدون أخطاء.
+	</td>
 </tr>
 <tr>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >التطبيق</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يغير، يحسب، يوضح، يكتشف، يتناول، يعدل، يشغل، يجهز، ينتج، يحل، يستخدم، يوظف، يعد.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يوظّف الطالب معرفته في الدرجة المئويّة لاحتساب الدرجة الفهرنهايتية بعد معرفتهم للعلاقة بينهما.
+	<br>
+	* أن يحلّ الطالب المشكلات الرياضية بدون أخطاء.
+	<br>
+	* أن يعدّ الطالب جداول ورسوم بيانية بصورة صحيحة.
+	</td>
 </tr>
 <tr>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الفهم والاستيعاب</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُحوّل، يُمثّل، يعيد صياغة، يؤيّد، يُعمم، يُعبّر، يُحدد.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يحدد الطالب أسباب انتصار المسلمين في معركة بدر، بشكل صحيح.
+	<br>
+	* أن يفسّر الطالب مفردات الدرس تفسيرًا صحيحًا.
+	</td>
 </tr>
 <tr>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
-	<td style="text-align: center;border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge;" >المعرفة والتذكر</td>
+	<td style="text-align: justify;border-left:ridge;" >يُحدد، يَصِف، يذكر، يتعرف، يُعدد، يُسمّي، يختار، يقابل بين.</td>
+	<td style="text-align: justify;" >
+	* أن يذكر الطالب أسماء ثلاثة مِن العلماء المسلمين دون أخطاء.
+	<br>
+	* أن يُعرّف الطالب مصطلحات الدرس تعريفًا صحيحًا.
+	</td>
 </tr>
 </table>

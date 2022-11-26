@@ -1,0 +1,66 @@
+<table style="text-align:center; width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+<tr>
+	<th style="width:20%; text-align: center;border-left:ridge; border-bottom:ridge;">المجال</th>
+	<th style="width:30%; text-align: center;border-left:ridge;border-bottom:ridge;">الأفعال المستخدمة</th>
+	<th style="width:50%; text-align: center;border-bottom:ridge;">أمثلة لنتاجات تعليمية وفق المستوى</th>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الإبداع</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يبتكر، ينظّم، يصمم، يُنشئ، يُطوّر، يبتدع، يربط.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يُصمم الطالب جهازًا مناسبًا لقياس الحرارة النوعية مِن مواد بسيطة.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >التكيّف</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُكيّف، يغيّر، يضبط، يُطوّر، يعيد ترتيب، يعيد تنظيم، ينتج، يراجع، يحذف، يُنوّع، يُلائم، يبدّل، يرسم.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	*أن يرسم الطالب قطاعًا طوليًا لساق نبات بعد أن يعرف مكوناته.
+	<br>
+	* أن يعيد الطالب تركيب جهاز البوتوميتر لضبط موقع فقاعة الهواء.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الاستجابة الظاهرية المعقدة</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يصنع، يركّب، يشغّل، يعيد بناء,</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يصنع الطالب نموذجًا لحمض DNA مِن مكوناته بسرعة وإتقان.
+	<br>
+	* أن يرسم الطالب مراحل دورة حياة الدودة الكبدية بانسجام وإتقان.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الميكانيكيّة أو الآلية</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُتقن أداء، يُنفّذ مهارة بطريقته الخاصة، يكتب بخط جميل، يشغّل جهازًا، يصلح جهازًا.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يعيد الطالب نسخ الدرس بخط جميل.
+	<br>
+	* أن يستخدم الطالب جهاز المجهر في فحص شريحة بخطوات صحيحة دون تعليمات.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الاستجابة الموجّهة</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يجمع، يشرح، يحشد، يبني، يُظهر، يكتب، يخلط، يركّب، يقيس، يربط، يقطع، ينظّم، يحلل، يحسب.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يطبّق الطالب الإسعافات الأوّلية كما عرضت أمامهم.
+	<br>
+	* أن يستخدم الطالب المجهر لفحص شريحة بعد قيام المعلم بالعمل نفسه أمامهم.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الميل أو التهيّؤ</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يبدأ، يحرّك، يستجيب، يظهر، يشرع، يهمّ، يخطو، يُبدي، يعيد، يوضّح.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يبدي الطالب الرغبة في صنع جهاز تقطير مِن خامات البيئة.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge;" >الإدراك</td>
+	<td style="text-align: justify;border-left:ridge;" >يحدد، يتعرّف، يلاحظ، يراقب، يتابع، يشاهد، يعاين.</td>
+	<td style="text-align: justify;" >
+	* أن يتعرّف الطالب على المواد اللازمة لتحضير شريحة مجهرية.
+	<br>
+	* أن يُحدد الطالب الأدوات اللازمة لإجراء تجربة إثبات تصاعد الأكسجين في عملية البناء الضوئي.
+	</td>
+</tr>
+</table>

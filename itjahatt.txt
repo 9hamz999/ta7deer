@@ -1,0 +1,60 @@
+<table style="text-align:center; width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+<tr>
+	<th style="width:20%; text-align: center;border-left:ridge; border-bottom:ridge;">المجال</th>
+	<th style="width:30%; text-align: center;border-left:ridge;border-bottom:ridge;">الأفعال المستخدمة</th>
+	<th style="width:50%; text-align: center;border-bottom:ridge;">أمثلة لنتاجات تعليمية وفق المستوى</th>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >تمثّل القِيَم</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُعيد النّظر، يقاوم، يقرر، يعبّر قولًا وعَمَلًا، يمارس، يؤمِن، يلتزم، يمثّل السلوك، يُشهِر، يطلب موقفًا، يعتمد على النّفس.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يتعاون الطالب مع الزملاء في مجموعات النشاط.
+	<br>
+	* أن يحاظ الطالب على صحته باتباع العادات الصحية السليمة.
+	<br>
+	* أن يؤمن الطالب بالأسلوب العلمي في حل المشكلات.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >التنظيم</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يُناقش، يُنظّر، يوازن، ينظّم، يحدد موقفه، يقرر العلاقات، يُصدر حُكمًا، يلتزم بـ، يتمسّك بـ، يتعرف على الحاجة إلى، يتبنّى.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يتبنى الطالب القيم العلمية.
+	<br>
+	* أن يتحمّل الطالب مسؤولية سلوكه الشخصي.
+	<br>
+	* أن يُصدر الطالب حُكمًا على موقف معيّن.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >التقييم</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يدعم، يعزز، يزيد، يساعد، يساند، يمنع، يُنكر، يُهاجِم، يختار، يحاول، يلتحق بـ، يُشارك، يُظهر الاعتقاد.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يدعم الطالب أهميّة التكنولوجيا في تقدّم العلم وتطوره.
+	<br>
+	* أن يُقدّر الطالب العمل الجيد.
+	<br>
+	* أن يُظهر الطالب الاهتمام بـ......
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" >الاستجابة</td>
+	<td style="text-align: justify;border-left:ridge; border-bottom:ridge;" >يتعاون، يكتب عن، يساعد، يناقش، يبدي اهتمامًا، يوافق على، يبادر، يؤدي، يقرر، يُطيع، يُؤيّد.</td>
+	<td style="text-align: justify;border-bottom:ridge;" >
+	* أن يؤيّد الطالب أهميّة المحافظة على البيئة مِن التلوث.
+	<br>
+	* أن يطيع الطالب الأنظمة المدرسية.
+	<br>
+	* أن يساعد الطالب زملاءه في نظافة الصف.
+	</td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge;" >الاستقبال</td>
+	<td style="text-align: justify;border-left:ridge;" >يُميّز، يلتفت، يُصغي، يستقبل، يسأل، يُصغي باهتمام، يُجيب، يشير، يُتابع الأنشطة باهتمام.</td>
+	<td style="text-align: justify;" >
+	* أن يصغي الطالب إلى أهمية التنظيف الأسنان بعد كل وجبة.
+	<br>
+	* أن يتابع الطالب فيديو عن أهمية المحافظة على البيئة.
+	</td>
+</tr>
+</table>

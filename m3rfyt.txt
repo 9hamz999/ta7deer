@@ -1,0 +1,42 @@
+<table style="text-align:center; width: 100%; direction: rtl; border: ridge; border-radius: 10px; ">
+<tr>
+	<th style="width:20%; text-align: center;border-left:ridge; border-bottom:ridge;">المجال</th>
+	<th style="width:30%; text-align: center;border-left:ridge;border-bottom:ridge;">الأفعال المستخدمة</th>
+	<th style="width:50%; text-align: center;border-bottom:ridge;">أمثلة لنتاجات تعليمية وفق المستوى</th>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-bottom:ridge;" ></td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-bottom:ridge;" ></td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-bottom:ridge;" ></td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-bottom:ridge;" ></td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-bottom:ridge;" ></td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-bottom:ridge;" ></td>
+</tr>
+<tr>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-left:ridge; border-bottom:ridge;" ></td>
+	<td style="text-align: center;border-bottom:ridge;" ></td>
+</tr>
+</table>

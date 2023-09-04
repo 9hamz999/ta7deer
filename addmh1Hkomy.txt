@@ -1,0 +1,7 @@
+	<td id="addN2" style="width:30%;">.</td>
+	<td style="width:10%; border-right:1px solid black;"></td>
+	<td style="width:10%;  border-right:1px solid black;"></td>
+	<td id="addSt2" style="width:5%;  border-right:1px solid black;"></td>
+	<td id="addT2" style="width:5%;  border-right:1px solid black;"></td>
+	<td id="addJ2" style="width:35%;border-right:1px solid black;"></td>
+	<td id="addZ2" style="width:5%;  border-right:1px solid black;"></td>

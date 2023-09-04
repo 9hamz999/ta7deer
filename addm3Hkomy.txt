@@ -2,7 +2,7 @@
 <table id="added1" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; background:#e3e3e3;  padding-bottom: 15px; padding-top: 15px;">
 
   <tr style="text-align: center;">
-    <td>النتاج المترتب عليه: </td>
+    <td>اكتب نتاجًا معرفيًا آخر</td>
     <td style="width:2%;" ></td>
   </tr>
   <tr style="text-align: center;">

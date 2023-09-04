@@ -1,0 +1,35 @@
+<div style="text-align: center; background: #1e272e; color: white;">نتاج وجداني آخر</div>
+<table id="added1" style="width: 100%; direction: rtl; border: ridge; border-radius: 10px; background:#e3e3e3;  padding-bottom: 15px; padding-top: 15px;">
+
+  <tr style="text-align: center;">
+    <td>اكتب نتاجًا وجدانيًا آخر</td>
+    <td style="width:2%;" ></td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="addn3"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">الإجراء المترتب عليه:</td>
+  </tr>
+  <tr style="text-align: center;">
+    <td><input style="direction: rtl; width: 80%;" type="text" id="addj3"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">زمن الإجراء: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><input style="direction: rtl; width: 80%;" type="text" id="addz3"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">استراتيجية التقويم: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="addst3"></input></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">أداة التقويم: </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><input style="direction: rtl; width: 80%;" type="text" id="addt3"></input></td>
+  </tr>
+</table>
